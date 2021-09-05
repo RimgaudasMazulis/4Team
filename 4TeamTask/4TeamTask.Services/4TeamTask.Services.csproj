@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_4TeamTask.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\4TeamTask.Common\4TeamTask.Common.csproj" />
+    <ProjectReference Include="..\4TeamTask.DataAccess\4TeamTask.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
