@@ -5,10 +5,8 @@ It uses Redis cache and on my machine it was setup as a windows service on local
 Possible improvements : 
 
 put host and port number in configuration file to be accessed by Configurations manager.
-add logger for logging requests
 add security
 add docker file
-add swagger 
 
 Test data can be created and returned via these links:
 
