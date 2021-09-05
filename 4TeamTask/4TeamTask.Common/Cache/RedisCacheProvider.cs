@@ -61,18 +61,5 @@ namespace _4TeamTask.Common.Cache
 
             return isInCache;
         }
-
-        public T GetOrSet<T>(string userId, T data)
-        {
-            if (IsInCache(userId))
-            {
-                return Get<T>(userId);
-            }
-            else
-            {
-                Set(userId, data);
-                return data;
-            }
-        }
     }
 }

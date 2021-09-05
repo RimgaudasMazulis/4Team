@@ -13,7 +13,5 @@ namespace _4TeamTask.Common.Cache
         bool Remove(string key);
 
         bool IsInCache(string key);
-
-        T GetOrSet<T>(string userId, T data);
     }
 }

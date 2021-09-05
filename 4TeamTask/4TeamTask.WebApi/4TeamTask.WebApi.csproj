@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\4TeamTask.Common\4TeamTask.Common.csproj" />
     <ProjectReference Include="..\4TeamTask.DataAccess\4TeamTask.DataAccess.csproj" />
     <ProjectReference Include="..\4TeamTask.Services\4TeamTask.Services.csproj" />
